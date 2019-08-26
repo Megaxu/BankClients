@@ -13,7 +13,7 @@ public class Main {
     client.withdraw(500);
     client.printBalance();
 
-    System.out.println("-------------------------------------------------------------------------");
+    System.out.println("--------------------------------------------------------------------------");
 
     Client legalClient = new LegalPerson(1000);
     legalClient.putMoney(-100);
@@ -21,7 +21,7 @@ public class Main {
     legalClient.withdraw(500);
     legalClient.printBalance();
 
-    System.out.println("-------------------------------------------------------------------------");
+    System.out.println("--------------------------------------------------------------------------");
 
     Client businesClient = new Businessman(1000);
     businesClient.putMoney(-100);
