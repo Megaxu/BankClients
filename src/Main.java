@@ -11,8 +11,6 @@ public class Main {
     client.putMoney(-100);
     client.putMoney(100);
     client.withdraw(500);
-    client.withdraw(-500);
-    client.withdraw(10000);
     client.printBalance();
 
     System.out.println("-------------------------------------------------------------------------");
@@ -21,8 +19,6 @@ public class Main {
     legalClient.putMoney(-100);
     legalClient.putMoney(100);
     legalClient.withdraw(500);
-    legalClient.withdraw(-500);
-    legalClient.withdraw(10000);
     legalClient.printBalance();
 
     System.out.println("-------------------------------------------------------------------------");
@@ -33,8 +29,6 @@ public class Main {
     businesClient.putMoney(1000);
     businesClient.putMoney(100);
     businesClient.withdraw(500);
-    businesClient.withdraw(-500);
-    businesClient.withdraw(10000);
     businesClient.printBalance();
   }
 }
